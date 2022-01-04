@@ -3,9 +3,9 @@
 }
 section{
     display: flex;
-    background-image: url(Picture/background.png);
+    /* background-image: url(Picture/background.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; */
 }
 section div h2 span{
     color: navy;
@@ -17,6 +17,12 @@ section div h2 span{
     font-size: 21px;
     font-weight: bolder;
 }
+.button{
+    text-decoration: none;
+    font-weight: bolder;
+    background-image: linear-gradient(red,yellow);
+    padding: 10px 20px ;
+}
 .picture{
     width: 40%;
     display: inline-block;
@@ -27,3 +33,10 @@ section div h2 span{
     border-radius: 10px;
     display: inline-block;
 }
+/* Dream Scetion */
+.dream{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -220px;
+}
+.dream 
