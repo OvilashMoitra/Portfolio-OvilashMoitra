@@ -23,8 +23,10 @@ section div h2 span{
 .button{
     text-decoration: none;
     font-weight: bolder;
-    background-image: linear-gradient(red,yellow);
+    background-image: linear-gradient(rgb(221, 109, 255),rgb(58, 255, 245));
     padding: 10px 20px ;
+    border-radius: 5px;
+    color: white;
 }
 .picture{
     width: 40%;
@@ -53,7 +55,7 @@ section div h2 span{
 
 }
 .elements h4{
-    color: khaki;
+    color: rgb(255, 0, 128);
 }
 .elements div {
     box-shadow: 50px 40px 100px gray;
