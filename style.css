@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section{
+    display: flex;
+    background-image: url(Picture/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section div h2 span{
+    color: navy;
+}
+.welcome-text {
+    width: 40%;
+    padding-left: 10%;
+    padding-top: 70px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+.picture{
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+}
+.picture img{
+    width: 40%;
+    border-radius: 10px;
+    display: inline-block;
+}
